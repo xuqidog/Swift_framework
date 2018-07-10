@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07D576132D106D768BB21406 /* Pods_Swift_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE4A3912A57BB131C1647DF /* Pods_Swift_demo.framework */; };
+		C74F400320F48C38006B2B7B /* LibHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F400220F48C38006B2B7B /* LibHeader.swift */; };
+		C74F400620F48EC9006B2B7B /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F400520F48EC9006B2B7B /* NetworkTool.swift */; };
 		C79F951620EDF4CD00F8FC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79F951520EDF4CD00F8FC09 /* AppDelegate.swift */; };
 		C79F951820EDF4CD00F8FC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79F951720EDF4CD00F8FC09 /* ViewController.swift */; };
 		C79F951B20EDF4CD00F8FC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79F951920EDF4CD00F8FC09 /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		7EE4A3912A57BB131C1647DF /* Pods_Swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1DF18BE037D9C5443DD4F /* Pods-Swift_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_demo/Pods-Swift_demo.release.xcconfig"; sourceTree = "<group>"; };
+		C74F400220F48C38006B2B7B /* LibHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibHeader.swift; sourceTree = "<group>"; };
+		C74F400520F48EC9006B2B7B /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		C79F951220EDF4CD00F8FC09 /* Swift_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79F951520EDF4CD00F8FC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79F951720EDF4CD00F8FC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -265,6 +269,7 @@
 			children = (
 				C79F958A20EE233100F8FC09 /* KKTools.swift */,
 				C79F958C20EE23C900F8FC09 /* KKDeviceInfo.swift */,
+				C74F400520F48EC9006B2B7B /* NetworkTool.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			children = (
 				C79F958420EE196E00F8FC09 /* Macro.swift */,
 				C79F958820EE1B9900F8FC09 /* Color.swift */,
+				C74F400220F48C38006B2B7B /* LibHeader.swift */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -420,8 +426,6 @@
 				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
@@ -438,8 +442,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
@@ -481,6 +483,7 @@
 			files = (
 				C79F954520EDF4EA00F8FC09 /* MainTabBarViewController.swift in Sources */,
 				C79F958920EE1B9900F8FC09 /* Color.swift in Sources */,
+				C74F400620F48EC9006B2B7B /* NetworkTool.swift in Sources */,
 				C79F951820EDF4CD00F8FC09 /* ViewController.swift in Sources */,
 				C79F951620EDF4CD00F8FC09 /* AppDelegate.swift in Sources */,
 				C79F958520EE196E00F8FC09 /* Macro.swift in Sources */,
@@ -489,6 +492,7 @@
 				C79F958D20EE23C900F8FC09 /* KKDeviceInfo.swift in Sources */,
 				C79F954920EDF52300F8FC09 /* SecondViewController.swift in Sources */,
 				C79F954B20EDF53100F8FC09 /* ThirdViewController.swift in Sources */,
+				C74F400320F48C38006B2B7B /* LibHeader.swift in Sources */,
 				C79F954720EDF51300F8FC09 /* FirstViewController.swift in Sources */,
 				C79F958B20EE233100F8FC09 /* KKTools.swift in Sources */,
 			);
@@ -665,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = Swift_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -684,6 +689,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = Swift_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

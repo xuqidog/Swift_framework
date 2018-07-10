@@ -2,8 +2,8 @@
 //  FirstViewController.swift
 //  Swift_demo
 //
-//  Created by xuntou-2 on 2018/7/5.
-//  Copyright © 2018 xuntou-2. All rights reserved.
+//  Created by xuqidong on 2018/7/5.
+//  Copyright © 2018 xuqidong. All rights reserved.
 //
 
 import UIKit
@@ -34,7 +34,11 @@ class FirstViewController: UIViewController {
         }
         
         self.view.backgroundColor = UIColor.white
-        // Do any additional setup after loading the view.
+        
+        // MARK: - 网络请求
+        NetworkTool.loadFeeds { (response) in
+            print(response)
+        }
     }
 
     override func didReceiveMemoryWarning() {

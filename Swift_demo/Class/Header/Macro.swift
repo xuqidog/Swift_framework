@@ -2,8 +2,8 @@
 //  Macro.swift
 //  Swift_demo
 //
-//  Created by xuntou-2 on 2018/7/5.
-//  Copyright © 2018 xuntou-2. All rights reserved.
+//  Created by xuqidong on 2018/7/5.
+//  Copyright © 2018 xuqidong. All rights reserved.
 //
 
 import Foundation

@@ -2,11 +2,12 @@
 //  FourthViewController.swift
 //  Swift_demo
 //
-//  Created by xuntou-2 on 2018/7/5.
-//  Copyright © 2018 xuntou-2. All rights reserved.
+//  Created by xuqidong on 2018/7/5.
+//  Copyright © 2018 xuqidong. All rights reserved.
 //
 
 import UIKit
+import Alamofire
 
 class FourthViewController: UIViewController {
 
@@ -15,7 +16,10 @@ class FourthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        Alamofire.request("http://www.baidu.com").response { response in // method defaults to `.get`
+            debugPrint(response)
+        }
     }
 
     override func didReceiveMemoryWarning() {
