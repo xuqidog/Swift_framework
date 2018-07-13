@@ -2,4 +2,118 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
+            timestampString = "553161298.030567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Any) -&gt; () in Swift_demo.FirstViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Swift_demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
+                  timestampString = "553161298.184876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 (Any) -&gt; () in Swift_demo.FirstViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Swift_demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
+                  timestampString = "553161298.18787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
+            timestampString = "553161298.030633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift_demo/Class/Tools/NetworkTool.swift"
+            timestampString = "553161298.030688"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "insert(Success:Failed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in Swift_demo):Swift_demo.NetworkToolProtocol.insert(Success: (Any) -&gt; (), Failed: (Any) -&gt; ()) -&gt; ()"
+                  moduleName = "Swift_demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Tools/NetworkTool.swift"
+                  timestampString = "553161298.206256"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "327">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in static (extension in Swift_demo):Swift_demo.NetworkToolProtocol.insert(Success: (Any) -&gt; (), Failed: (Any) -&gt; ()) -&gt; ()"
+                  moduleName = "Swift_demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Tools/NetworkTool.swift"
+                  timestampString = "553161298.20811"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

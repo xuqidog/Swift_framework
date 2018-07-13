@@ -36,9 +36,22 @@ class FirstViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
         
         // MARK: - 网络请求
-        NetworkTool.loadFeeds { (response) in
-            print(response)
+//        NetworkTool.loadFeeds { (response) in
+//            print(response)
+//        }
+        
+        NetworkTool.loadTest(Success: { (Success) in
+            print("Success", Success)
+        }){ (Failed) in
+            print("Failed", Failed)
         }
+        
+        NetworkTool.insert(Success: { (Success) in
+            
+        }) { (Failed) in
+            
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
