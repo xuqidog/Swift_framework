@@ -31,3 +31,17 @@ func returnStrHeight(str: String, strWith: CGFloat, strFont: UIFont) -> CGFloat 
     size = str.boundingRect(with: size2, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: dict, context: nil)
     return size.height
 }
+
+
+extension UIImage {
+    /// 将颜色转成图片
+    class func imageWithColor(color: UIColor) -> UIImage {
+        let rect: CGRect = CGRect(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: 1, height: 1), false, 0)
+        color.setFill()
+        UIRectFill(rect)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return image
+    }
+}

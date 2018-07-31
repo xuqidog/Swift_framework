@@ -15,6 +15,15 @@ class MyViewController : UIViewController {
         
         view.addSubview(label)
         self.view = view
+        
+        
+        
+        let str = "hello world"
+        print(str)
+        
+        var arr = [Int](repeating: 0, count: 3)
+        
+        
     }
 }
 // Present the view controller in the Live View window

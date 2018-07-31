@@ -47,7 +47,52 @@ extension AllNewsViewController {
     func button(at index: Int) -> UIButton {
         let button = UIButton()
         button.setTitleColor(UIColor.black, for: .normal)
+        button.setTitleColor(UIColor.white, for: .selected)
+        button.setBackgroundImage(UIImage.imageWithColor(color: UIColor.lightGray), for: .normal)
+        button.setBackgroundImage(UIImage.imageWithColor(color: UIColor.gray), for: .selected)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         return button
     }
+    
+    func didSelectButton(at index: Int) {
+        
+    }
+    
+    func willTransition(to index: Int) {
+        
+    }
+    
+    func didTransition(to index: Int) {
+        
+    }
+    
+    func heightForHeader() -> CGFloat {
+        return 60
+    }
+    
+    func backgroundColorForHeader() -> UIColor {
+        return UIColor.lightGray
+    }
+    
+    func heightForIndicator() -> CGFloat {
+        return 3
+    }
+    
+    func colorForIndicator(at index: Int) -> UIColor {
+        return UIColor.blue
+    }
+    
+    func shouldShowIndicator() -> Bool {
+        return false
+    }
+    
+    func widthForButton(at index: Int) -> CGFloat {
+        return 80
+    }
+    
+    func widthForIndicator(at index: Int) -> CGFloat {
+        return 50
+    }
+    
+    
 }
