@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
-            timestampString = "553161298.030567"
+            timestampString = "554204351.190972"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -26,11 +26,11 @@
                   moduleName = "Swift_demo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
-                  timestampString = "553161298.184876"
+                  timestampString = "554637028.113415"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
@@ -41,11 +41,11 @@
                   moduleName = "Swift_demo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
-                  timestampString = "553161298.18787"
+                  timestampString = "554637028.116133"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
                   offsetFromSymbolStart = "12">
                </Location>
             </Locations>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift_demo/Class/Controller/Main/C/FirstViewController.swift"
-            timestampString = "553161298.030633"
+            timestampString = "554204351.191034"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -73,46 +73,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Swift_demo/Class/Tools/NetworkTool.swift"
-            timestampString = "553161298.030688"
+            filePath = "Swift_demo/Class/Tools/KKTools.swift"
+            timestampString = "554694585.092571"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "insert(Success:Failed:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static (extension in Swift_demo):Swift_demo.NetworkToolProtocol.insert(Success: (Any) -&gt; (), Failed: (Any) -&gt; ()) -&gt; ()"
-                  moduleName = "Swift_demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Tools/NetworkTool.swift"
-                  timestampString = "553161298.206256"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "327">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in static (extension in Swift_demo):Swift_demo.NetworkToolProtocol.insert(Success: (Any) -&gt; (), Failed: (Any) -&gt; ()) -&gt; ()"
-                  moduleName = "Swift_demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xuntou-2/Desktop/Swift_demo/Swift_demo/Class/Tools/NetworkTool.swift"
-                  timestampString = "553161298.20811"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "returnStrHeight(str:strWith:strFont:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

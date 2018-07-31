@@ -46,8 +46,11 @@ class FirstViewController: UIViewController {
             print("Failed", Failed)
         }
         
-        NetworkTool.insert(Success: { (Success) in
-            
+        let parameters = ["foo": "bar",
+                          "key": "value"]
+    
+        NetworkTool.insert(para: parameters, Success: { (Success) in
+        
         }) { (Failed) in
             
         }

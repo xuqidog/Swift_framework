@@ -11,7 +11,8 @@ PODS:
     - SnapKit (~> 4.0.0)
   - ESTabBarController-swift (2.6.2)
   - FDFullscreenPopGesture (1.1)
-  - Kingfisher (4.8.0)
+  - HandyJSON (4.1.3)
+  - Kingfisher (4.8.1)
   - lottie-ios (2.5.0)
   - MJRefresh (3.1.15.3)
   - NVActivityIndicatorView (4.0.1):
@@ -20,7 +21,6 @@ PODS:
   - SnapKit (4.0.0)
   - SVProgressHUD (2.2.5)
   - SwiftTheme (0.4.1)
-  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -28,13 +28,13 @@ DEPENDENCIES:
   - BMPlayer
   - ESTabBarController-swift
   - FDFullscreenPopGesture
+  - HandyJSON
   - Kingfisher
   - lottie-ios
   - MJRefresh
   - SnapKit (~> 4.0.0)
   - SVProgressHUD
   - SwiftTheme
-  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -43,6 +43,7 @@ SPEC REPOS:
     - BMPlayer
     - ESTabBarController-swift
     - FDFullscreenPopGesture
+    - HandyJSON
     - Kingfisher
     - lottie-ios
     - MJRefresh
@@ -50,7 +51,6 @@ SPEC REPOS:
     - SnapKit
     - SVProgressHUD
     - SwiftTheme
-    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
@@ -58,15 +58,15 @@ SPEC CHECKSUMS:
   BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  HandyJSON: bc81fbeb62d65ae5d5942ed29bc4a8265d18c1e8
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftTheme: 36d71c4eed4b2c401c782cf036e4586c749a8173
-  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 5f43e7e15c68bc04b4dbb38e06c1048176d400e9
+PODFILE CHECKSUM: a54121d9ed58e6ccb33981867acc2b554652985b
 
 COCOAPODS: 1.5.0

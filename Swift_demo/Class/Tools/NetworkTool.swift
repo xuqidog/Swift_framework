@@ -8,11 +8,10 @@
 
 import Foundation
 import Alamofire
-import SwiftyJSON
 
 protocol NetworkToolProtocol {
-    static func loadFeeds(completionHandler: @escaping (_ response: NSDictionary) -> ())
-    static func loadTest(Success:@escaping(_ Success: Any) -> (), Failed:@escaping(_ Failed: Any) -> ())
+//    static func loadFeeds(completionHandler: @escaping (_ response: NSDictionary) -> ())
+//    static func loadTest(Success:@escaping(_ Success: Any) -> (), Failed:@escaping(_ Failed: Any) -> ())
 }
 
 extension NetworkToolProtocol {
@@ -42,10 +41,9 @@ extension NetworkToolProtocol {
     }
     
     
-    static func insert(Success:@escaping(_ Success: Any) -> (), Failed:@escaping(_ Failed: Any) -> ()) {
+    static func insert(para:Parameters, Success:@escaping(_ Success: Any) -> (), Failed:@escaping(_ Failed: Any) -> ()) {
         let url = "http://0.0.0.0:8181/insert"
-        let parameters = ["foo": "bar"]
-        Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
+        Alamofire.request(url, method: .post, parameters: para, encoding: JSONEncoding.default, headers: nil).responseJSON { (response) in
             
         }
     }

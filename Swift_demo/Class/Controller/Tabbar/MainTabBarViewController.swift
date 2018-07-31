@@ -22,7 +22,7 @@ class MainTabBarViewController: UITabBarController {
         let v1 = addNav(childVC: FirstViewController(), title: "Home")
         let v2 = addNav(childVC: SecondViewController(), title: "Find")
         let v3 = addNav(childVC: FirstViewController(), title: "Photo")
-        let v4 = addNav(childVC: FirstViewController(), title: "Favor")
+        let v4 = addNav(childVC: AllNewsViewController(), title: "Favor")
         let v5 = addNav(childVC: FourthViewController(), title: "Me")
         
 //        v1.tabBarItem = ESTabBarItem.init(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))

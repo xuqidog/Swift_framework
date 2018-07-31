@@ -27,8 +27,11 @@ class SecondViewController: UIViewController {
         //创建控制器
         for index in 0..<(titles?.count)! {
             let randomColor = UIColor(red: CGFloat(arc4random()%255) / 255, green: CGFloat(arc4random()%255) / 255, blue: CGFloat(arc4random()%255) / 255, alpha: 1.0)
-            let targetVC = ThirdViewController(text: (titles?[index])!, color: randomColor)
+//            let targetVC = ThirdViewController(text: (titles?[index])!, color: randomColor)
+//            arrVC.append(targetVC)
+            let targetVC = NewsListController()
             arrVC.append(targetVC)
+            
         }
         
         let segmentView = WHSegmentView(frame: CGRect.zero, arrTitle: titles!, viewControllers: arrVC, parentVc: self, isShowFilterButton: true)

@@ -22,3 +22,12 @@ func returnAppVersion() -> String {
 func returnAppShortVersion() -> String {
     return Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
 }
+
+/// 返回字符串的高度
+func returnStrHeight(str: String, strWith: CGFloat, strFont: UIFont) -> CGFloat {
+    var size = CGRect()
+    let size2 = CGSize(width: strWith, height: CGFloat(MAXFLOAT))
+    let dict = [NSAttributedStringKey.font:strFont]
+    size = str.boundingRect(with: size2, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: dict, context: nil)
+    return size.height
+}

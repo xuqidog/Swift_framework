@@ -4,8 +4,8 @@ use_frameworks!
 target 'Swift_demo' do
 
 pod 'ESTabBarController-swift' # TabBar
-pod 'SwiftyJSON', '~> 4.0' # JSON序列化
-#pod 'HandyJSON', '~> 4.1.1' # JSON序列化
+#pod 'SwiftyJSON', '~> 4.0' # JSON序列化
+pod 'HandyJSON' # JSON序列化
 pod 'SnapKit', '~> 4.0.0' # 适配
 pod 'Alamofire' # 网络请求
 pod 'AlamofireImage', '~> 3.3' # 图片加载、缓存
